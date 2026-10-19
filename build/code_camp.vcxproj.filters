@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\addoy\Documents\codes\c++\code_camp\Assignmentwk1\Question_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\addoy\Documents\codes\c++\code_camp\Assignmentwk1\Question_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\addoy\Documents\codes\c++\code_camp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{18614FDA-47E8-3187-B79E-91A4C41CD5C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

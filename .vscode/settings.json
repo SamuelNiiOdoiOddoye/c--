@@ -2,5 +2,6 @@
     "files.associations": {
         "iostream": "cpp",
         "assignment1": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/addoy/Documents/codes/c++/code_camp"
 }

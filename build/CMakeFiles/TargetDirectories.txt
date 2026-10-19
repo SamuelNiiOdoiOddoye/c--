@@ -1,0 +1,3 @@
+C:/Users/addoy/Documents/codes/c++/build/CMakeFiles/code_camp.dir
+C:/Users/addoy/Documents/codes/c++/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/addoy/Documents/codes/c++/build/CMakeFiles/ZERO_CHECK.dir
