@@ -1,0 +1,21 @@
+//Program to read 5 numbers, find their sum, and 
+//print the numbers in reverse order
+#include <iostream>
+using namespace std;
+int main(){
+
+    /* 
+    The purpose of the program is to read five numbers , find their sum and display them in reverse order
+    */
+
+   // declare an array of size 5 , the variable sum , a variable to be used in the for loop
+   int item[5] , sum , counter; 
+   cout << "Enter Five numbers";
+   for (counter=0 ; counter<5 ; counter++){
+       cin >> item[counter];
+   }
+   
+
+
+    return 0;
+}

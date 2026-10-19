@@ -1,0 +1,38 @@
+"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja C:\Users\addoy\Documents\codes\c++\code_camp
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/addoy/Documents/codes/c++/code_camp/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_6f1d2 && [1/2] Building C object CMakeFiles/cmTC_6f1d2.dir/testCCompiler.c.obj
+    [2/2] Linking C executable cmTC_6f1d2.exe
+    FAILED: cmTC_6f1d2.exe 
+    cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe   CMakeFiles/cmTC_6f1d2.dir/testCCompiler.c.obj -o cmTC_6f1d2.exe -Wl,--out-implib,libcmTC_6f1d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+    C:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin/ld.exe: cannot open output file cmTC_6f1d2.exe: No such file or directory
+    collect2.exe: error: ld returned 1 exit status
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/addoy/Documents/codes/c++/code_camp/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/addoy/Documents/codes/c++/code_camp/cmake-build-debug/CMakeFiles/CMakeError.log".
